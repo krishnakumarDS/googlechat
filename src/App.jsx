@@ -28,6 +28,9 @@ function App() {
   const signIn = async () => {
     await supabase.auth.signInWithOAuth({
       provider: "google",
+      options: {
+        redirectTo: `https://googlechat-l67r.vercel.app/`,
+      },
     });
   };
 
