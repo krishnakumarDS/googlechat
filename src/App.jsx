@@ -108,7 +108,7 @@ function App() {
     }, [100]);
   }, [messages]);
 
-  if (!session) {
+  if (session) {
     return (
       <div className="w-full flex h-screen justify-center items-center">
         <button onClick={signIn}>Sign in with Google to chat</button>
