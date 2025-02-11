@@ -113,8 +113,26 @@ function App() {
 
   if (!session) {
     return (
-      <div className="w-full flex h-screen justify-center items-center">
-        <button onClick={signIn}>Sign in with Google to chat</button>
+      <div className="w-full flex flex-col h-screen justify-center bg-black items-center">
+        <div className="mb-2.5 flex gap-1 text-white">
+          <img
+            src="./images.png"
+            alt=""
+            width={35}
+            height={35}
+            className="rounded-4xl mr-1 mb-1.5"
+          />
+          <p className="font-bold mt-1.5">RED PULSE</p>
+        </div>
+        <div className="text-white mb-4 font-bold">
+          YOUR RIGHT PLACE TO CONNECT
+        </div>
+        <button
+          onClick={signIn}
+          className="text-white rounded-lg font-bold border-2 cursor-pointer p-4 bg-[#1a1a1a]"
+        >
+          SIGN IN WITH GOOGLE TO CHAT
+        </button>
       </div>
     );
   } else {
