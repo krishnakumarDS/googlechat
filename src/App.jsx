@@ -220,7 +220,7 @@ function App() {
               placeholder="Type a message..."
               className="p-2 w-full bg-[#00000040] rounded-lg text-white border-1"
             />
-            <button className="mt-4 sm:mt-0 sm:ml-8 text-white max-h-12 cursor-pointer border-2">
+            <button className="mt-4 sm:mt-0 sm:ml-8 text-white max-h-12 cursor-pointer border-2 p-2 rounded-lg">
               Send
             </button>
             <span ref={scroll}></span>
