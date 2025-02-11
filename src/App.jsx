@@ -137,7 +137,7 @@ function App() {
     );
   } else {
     return (
-      <div className="w-full flex h-screen justify-center items-center p-4">
+      <div className="w-full flex h-screen justify-center items-center p-4 bg-black">
         <div className="border-[1px] border-gray-700 max-w-6xl w-full min-h-[600px] rounded-lg">
           {/* Header */}
           <div className="flex justify-between h-20 border-b-[1px] border-gray-700">
