@@ -211,14 +211,14 @@ function App() {
           {/* message input */}
           <form
             onSubmit={sendMessage}
-            className="flex flex-col sm:flex-row p-4 border-t-[1px] border-gray-700"
+            className="flex flex-col sm:flex-row p-4 border-t-[1px] border-gray-700 text-white"
           >
             <input
               value={newMessage}
               onChange={(e) => setNewMessage(e.target.value)}
               type="text"
               placeholder="Type a message..."
-              className="p-2 w-full bg-[#00000040] rounded-lg text-white"
+              className="p-2 w-full bg-[#00000040] rounded-lg text-white "
             />
             <button className="mt-4 sm:mt-0 sm:ml-8 text-white max-h-12">
               Send
