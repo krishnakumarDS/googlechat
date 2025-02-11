@@ -149,7 +149,7 @@ function App() {
                 {usersOnline.length} users online
               </p>
             </div>
-            <button onClick={signOut} className="m-2 sm:mr-4 text-white">
+            <button onClick={signOut} className="m-2 sm:mr-4 text-white cursor-pointer border-2 p-2 rounded-lg">
               Sign out
             </button>
           </div>
